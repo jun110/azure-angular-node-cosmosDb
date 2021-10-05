@@ -1,3 +1,7 @@
+let appInsights = require('applicationinsights');
+appInsights.setup('06cb6361-b98d-4003-bf0c-8e5b7f80c74b');
+appInsights.start();
+
 /**
  * app.js
  *
