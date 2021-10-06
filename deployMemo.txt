@@ -29,3 +29,4 @@ https://2110040060002188@jk-node14-2110040060002188-01-linux.scm.azurewebsites.n
 
 az webapp config appsettings set --name jk-node14-2110040060002188-01-linux --resource-group jk-rg-2110040060002188-02 --settings MONGODB_URI='mongodb://jk-cosmosdb-2110040060002188:F9KpftFUIOUliXpFIZCxCWQuA0Xbc9tHHUa29BH4Bm7t96v2fqR243OR3CJOtzDZ93orHhIWNRZYLkcnb18avA==@jk-cosmosdb-2110040060002188.documents.azure.com:10250/todoapp' DEPLOYMENT_BRANCH='main'
 git remote add azure https://2110040060002188@jk-node14-2110040060002188-01-linux.scm.azurewebsites.net/jk-node14-2110040060002188-01-linux.git
+git push azure main
