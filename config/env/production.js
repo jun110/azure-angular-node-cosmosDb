@@ -248,10 +248,10 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
-    //   'https://staging.example.com',
-    // ],
+    onlyAllowOrigins: [
+      'https://jk-node14-2110040060002188-01-linux.azurewebsites.net/',
+      'https://jk-node14-2110040060002188-01-linux.azurewebsites.net/:8000',
+    ],
 
 
     /***************************************************************************
