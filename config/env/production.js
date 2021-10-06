@@ -249,8 +249,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     onlyAllowOrigins: [
-      'https://jk-node14-2110040060002188-01-linux.azurewebsites.net/',
-      'https://jk-node14-2110040060002188-01-linux.azurewebsites.net:8000/',
+      'https://jk-node14-2110040060002188-01-linux.azurewebsites.net/'
     ],
 
 
