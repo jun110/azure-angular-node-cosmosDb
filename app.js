@@ -1,6 +1,7 @@
 let appInsights = require('applicationinsights');
-appInsights.setup('06cb6361-b98d-4003-bf0c-8e5b7f80c74b');
-appInsights.start();
+appInsights.setup('06cb6361-b98d-4003-bf0c-8e5b7f80c74b')
+  .setAutoCollectConsole(true,true)
+  .start();
 
 /**
  * app.js
@@ -30,7 +31,8 @@ appInsights.start();
 // > Note: This is not required in order to lift, but it is a convenient default.
 process.chdir(__dirname);
 
-
+appInsights.defaultClient.trackTrace({message: "Application was started!!!"})
+console.info("Application was started!!! by console")
 
 // Attempt to import `sails` dependency, as well as `rc` (for loading `.sailsrc` files).
 var sails;

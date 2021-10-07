@@ -6,10 +6,14 @@ import { environment } from './environments/environment';
 
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 
+// const appInsights = new ApplicationInsights({ config: {
+//   instrumentationKey: '06cb6361-b98d-4003-bf0c-8e5b7f80c74b',
+//   distributedTracingMode: 2
+//   /* ...Other Configuration Options... */
+// } });
 const appInsights = new ApplicationInsights({ config: {
-  instrumentationKey: '06cb6361-b98d-4003-bf0c-8e5b7f80c74b',
-  distributedTracingMode: 2
-  /* ...Other Configuration Options... */
+  instrumentationKey: '06cb6361-b98d-4003-bf0c-8e5b7f80c74b'
+    /* ...Other Configuration Options... */
 } });
 appInsights.loadAppInsights();
 appInsights.trackPageView(); // Manually call trackPageView to establish the current user/session/pageview

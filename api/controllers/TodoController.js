@@ -6,7 +6,11 @@
  */
 
 module.exports = {
-  
 
+    find(req, res) {
+
+        console.info("Called Todo get list.")
+
+    }
 };
 
