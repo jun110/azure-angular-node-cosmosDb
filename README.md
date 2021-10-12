@@ -30,3 +30,22 @@ This is a [Sails.js](https://sailsjs.com) and Angular application you can use to
 ### Links
 
 + [Sails framework documentation](https://sailsjs.com/get-started)
+
+
+## 構築のメモ
+本プロジェクトをクローンした後に、プロジェクト ディレクトリにて下記のコマンドを実行します。
+
+```bash
+npm install
+```
+
+ローカルで動作させるには、下記のコマンドを実行。
+
+```bash
+node app.js --alter
+```
+
+Azure 上へデプロイさせるには、App Service や Cosmos DB の構築が必須です。  
+詳細は下記のドキュメントをご参考ください。
+
+- https://docs.microsoft.com/ja-jp/azure/app-service/tutorial-nodejs-mongodb-app?pivots=platform-linux
